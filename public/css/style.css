@@ -1,0 +1,37 @@
+:root { --purple: #cc59e3; --light: #fffcff; --darkpurple: #3b0764; --line: #e9d5ff; --ok: #2f855a; --warn: #c05621; --text: #3b0764; --muted: #6b5b7b; --error: #c53030; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; font-family: system-ui; background: var(--light); color: var(--text); }
+.container { flex: 1; width: 100%; max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+.muted { color: #6b5b7b; }
+
+.navbar { background: var(--purple); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; padding: 12px 24px; }
+.navbar a { color: #fff; text-decoration: none; }
+.brand { font-weight: 700; font-size: 1.2rem; }
+.nav-links { display: flex; flex-wrap: wrap; gap: 16px; }
+.nav-links a:hover { text-decoration: underline; }
+
+.card { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+.btn { display: inline-block; background: var(--purple); color: #fff; border: 0; border-radius: 8px; padding: 10px 18px; font-size: 1rem; cursor: pointer; text-decoration: none; }
+.btn:hover { background: var(--darkpurple); }
+
+.login-card { max-width: 420px; margin: 40px auto; }
+label { display: block; margin-top: 14px; font-weight: 600; }
+input { width: 100%; padding: 10px; margin-top: 6px; border: 1px solid var(--line); border-radius: 8px; font-size: 1rem; }
+form .btn { margin-top: 18px; width: 100%; }
+.error { color: #c53030; font-size: 0.875rem; margin-top: 4px; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 20px 0 24px; }
+.stat { display: flex; flex-direction: column; gap: 4px; }
+.stat-value { font-size: 1.8rem; font-weight: 700; }
+
+.table-wrap { overflow-x: auto; margin-top: 16px; }
+table { width: 100%; border-collapse: collapse; min-width: 560px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+th { background: var(--darkpurple); }
+.badge { padding: 3px 10px; border-radius: 999px; font-size: 0.8rem; color: #fff; }
+.badge.ok { background: var(--ok); }
+.badge.warn { background: var(--warn); }
+
+.profile-card { max-width: 480px; margin: 24px auto; text-align: center; }
+.row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--line); text-align: left; }
+
