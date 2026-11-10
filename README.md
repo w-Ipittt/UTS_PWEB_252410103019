@@ -14,7 +14,8 @@ Login -> Dashboard -> Profil -> Pengelolaan. Username nanti dikirim sebagai requ
 #Screenshot
 
 <img width="1366" height="768" alt="login" src="https://github.com/user-attachments/assets/f072ddc0-f201-40ce-9a73-882547e5a3b6" />
-<img width="1366" height="768" alt="profil" src="https://github.com/user-attachments/assets/b8be5618-4f63-487d-b235-d45dc73cf208" />
-<img width="1366" height="768" alt="pengelolaan" src="https://github.com/user-attachments/assets/12abad15-4dba-49f9-928f-d8eb656c0bf3" />
-<img width="1366" height="768" alt="dashboard" src="https://github.com/user-attachments/assets/e49d2e97-2219-4700-8592-0ce5d4676c41" />
+<img width="1366" height="768" alt="dashboard" src="https://github.com/user-attachments/assets/9d24ee6b-958e-4674-ab48-9413c31911a8" />
+<img width="1366" height="768" alt="profil" src="https://github.com/user-attachments/assets/a5416b94-db41-4a58-bab8-7e5ec0974578" />
+<img width="1366" height="768" alt="pengelolaan" src="https://github.com/user-attachments/assets/6e8b2706-61a4-4805-9ca6-bfb792b73e3c" />
+
 
